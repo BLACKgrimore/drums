@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #38b9b9;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.Drums{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+.w{
+    background-image: url("1.png");
+    width: 10rem;
+    height: 10rem;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    margin: 2rem;
+}
+
+.a{
+    background-image: url("2.jpeg");
+    width: 10rem;
+    height: 10rem;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    margin: 2rem;
+}
+
+.s{
+    background-image: url("3.jpeg");
+    width: 10rem;
+    height: 10rem;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    margin: 2rem;
+}
+
+.d{
+    background-image: url("4.jpeg");
+    width: 10rem;
+    height: 10rem;
+    font-size: 3rem;
+    color: #000;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    margin: 2rem;
+}
+.j{
+    background-image: url("5.jpeg");
+    width: 10rem;
+    height: 10rem;
+    font-size: 3rem;
+    color: #000;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    margin: 2rem;
+}
+.k{
+    background-image: url("6.jpeg");
+    width: 10rem;
+    height: 10rem;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    margin: 2rem;
+}
+.l{
+    background-image: url("7.jpeg");
+    width: 10rem;
+    height: 10rem;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    margin: 2rem;
+}
