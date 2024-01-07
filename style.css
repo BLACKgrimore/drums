@@ -15,6 +15,9 @@ body{
     height: 100vh;
     width: 100%;
 }
+.pressBtn{
+    opacity: 0.5;
+}
 .Drums{
     display: flex;
     flex-wrap: wrap;

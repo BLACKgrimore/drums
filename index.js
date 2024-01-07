@@ -4,8 +4,24 @@
             drums[i].addEventListener("click", function() {
                 console.log("Clicked:", this.innerHTML);
                 sound(this.innerHTML);
+                Btnfade(this.innerHTML)
             });
         }
+
+        document.body.addEventListener("keypress",(event)=>{
+            console.log(event.key)
+            sound(event.key)
+            Btnfade(event.key)
+    })
+
+    function Btnfade(pressedkey){
+        let btn = document.querySelector("."+pressedkey)
+        btn.classList.add("pressBtn")
+        setTimeout(()=>{
+            btn.classList.remove("pressBtn")
+        },200)
+
+    }
 
         function sound(key) {
             switch (key) {
