@@ -9,10 +9,10 @@
         }
         
 
-        document.getElementById("text1").addEventListener("touchstart",(event)=>{
-            console.log(event.key)
-            sound(event.key)
-            Btnfade(event.key)
+        document.getElementById("text1").addEventListener("input",(event)=>{
+            console.log(event.data)
+            sound(event.data)
+            Btnfade(event.data)
     })
 
         document.body.addEventListener("keydown",(event)=>{
