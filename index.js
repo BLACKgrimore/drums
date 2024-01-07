@@ -7,8 +7,9 @@
                 Btnfade(this.innerHTML)
             });
         }
+        
 
-        document.getElementById("text1").addEventListener("keypress",(event)=>{
+        document.getElementById("text1").addEventListener("keydown",(event)=>{
             console.log(event.key)
             sound(event.key)
             Btnfade(event.key)
