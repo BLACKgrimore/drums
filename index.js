@@ -8,6 +8,12 @@
             });
         }
 
+        document.getElementById("text1").addEventListener("keypress",(event)=>{
+            console.log(event.key)
+            sound(event.key)
+            Btnfade(event.key)
+    })
+
         document.body.addEventListener("keypress",(event)=>{
             console.log(event.key)
             sound(event.key)
