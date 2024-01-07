@@ -9,13 +9,13 @@
         }
         
 
-        document.getElementById("text1").addEventListener("keydown",(event)=>{
+        document.getElementById("text1").addEventListener("touchstart",(event)=>{
             console.log(event.key)
             sound(event.key)
             Btnfade(event.key)
     })
 
-        document.body.addEventListener("keypress",(event)=>{
+        document.body.addEventListener("keydown",(event)=>{
             console.log(event.key)
             sound(event.key)
             Btnfade(event.key)
